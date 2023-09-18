@@ -7,7 +7,6 @@
 body{
     background-color: #BABABA;
     margin-top: 5%;
- 
     margin-left: 4rem;
     margin-right: 4rem;
 }
@@ -19,20 +18,17 @@ h1{
 h2{
     font-size: 2rem;
 }
-header{
-    margin-bottom: 30px;
-}
 
 header img{
     display: block;
     width: 40vw;
     margin: auto;
+    margin-bottom: 30px;
 }
 
 nav{
     background-color: red;
-    height: 40px;
-    
+    height: 40px; 
 }
 
 nav>ul{
@@ -66,7 +62,6 @@ article{
     flex: 1;
 }
 
-
 .display{
     background-image: url('display.jpg');
     background-color: #cccccc;
@@ -90,7 +85,6 @@ article{
 }
 
 .card{
-    
     background-color:grey;
     height:350px;
     margin: 5px;
@@ -102,8 +96,6 @@ article{
 
 .card:hover{
     background-color:darkgray;
-   
-    /* transition:ease-in-out 1s; */
     animation: tilt 4s infinite linear;
 }
 
@@ -135,7 +127,6 @@ article{
 }
 
 .card p{
-
     padding: 5px 10px ;
 }
 
@@ -161,6 +152,5 @@ footer img{
 }
 
 .copyright{
-    
     text-align: end;
 }
