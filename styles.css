@@ -1,0 +1,166 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #BABABA;
+    margin-top: 5%;
+ 
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+
+h1{
+    font-size: 4rem;
+}
+
+h2{
+    font-size: 2rem;
+}
+header{
+    margin-bottom: 30px;
+}
+
+header img{
+    display: block;
+    width: 40vw;
+    margin: auto;
+}
+
+nav{
+    background-color: red;
+    height: 40px;
+    
+}
+
+nav>ul{
+    list-style: none;
+    
+   text-align: center;
+
+}
+
+ul>li{
+    display: inline-block;
+    padding: 12px;
+}
+
+li>a{
+    color: lightgrey;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+li>a:hover{
+    color: black;
+}
+
+section{
+    display: flex;
+    margin: 40px;
+}
+
+article{
+    flex: 1;
+}
+
+
+.display{
+    background-image: url('display.jpg');
+    background-color: #cccccc;
+    height: 220px;
+    color: black;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+}
+.display h1{
+    margin: 20px;
+    width: 20vw;
+
+}
+.display p{
+    width: 50vw;
+    margin: 20px;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.card{
+    
+    background-color:grey;
+    height:350px;
+    margin: 5px;
+    color: white;
+    border-radius: 5px;
+   text-align: start;
+}
+
+
+.card:hover{
+    background-color:darkgray;
+   
+    /* transition:ease-in-out 1s; */
+    animation: tilt 4s infinite linear;
+}
+
+@keyframes tilt{
+    0%{
+        transform: scale(1);
+    
+    }
+    30%{
+        transform: scale(1.2);
+    
+    }
+    60%{
+        transform: scale(1.1);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+.card img{
+    width: 200px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.card h2{
+    padding: 10px;
+}
+
+.card p{
+
+    padding: 5px 10px ;
+}
+
+.card p a{
+    text-decoration: none;
+    color: red;
+}
+footer{
+    display: flex;
+    background-color: red;
+}
+
+footer>div{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer img{
+    width: 5vw;
+    margin: 10px;
+}
+
+.copyright{
+    
+    text-align: end;
+}
